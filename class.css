@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f8f8f8;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+  gap: 60px;
+}
+
+.phone-mockup {
+  width: 320px;
+  background: rgb(206, 197, 197);
+  border-radius: 30px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  border: white 10px solid;
+  
+
+}
+
+.header {
+  background: linear-gradient(to right, #a05eff, #da50ff);
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.name {
+  font-weight: bold;
+  margin: 0;
+}
+
+.status {
+  font-size: 0.8em;
+  margin: 0;
+  opacity: 0.8;
+}
+
+.chat {
+  padding: 16px;
+  flex: 1;
+}
+
+.bubble {
+  display: flex;
+  align-items: end;
+  background: #eee;
+  padding: 10px 14px;
+  border-radius: 16px;
+  margin-bottom: 10px;
+  max-width: 75%;
+
+}
+
+.received {
+  align-self: flex-start;
+  background: #f1f1f1;
+  color: #da50ff;
+}
+
+.sent {
+  display: flex;
+  align-self: flex-end;
+  background: white;
+  color:black
+
+}
+
+.images {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+  justify-content: end;
+  align-items: end;
+}
+
+.images img {
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #b56bfa, #da50ff);
+  color: white;
+  border-radius: 16px;
+  padding: 10px 16px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.input-area {
+  display: flex;
+  padding: 12px;
+  border-top: 1px solid #ddd;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  background: #f0f0f0;
+}
+
+.input-area button {
+  background: #a05eff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  margin-left: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.text-content {
+  max-width: 400px;
+}
+
+.text-content h2 {
+  color: #3c225c;
+  font-size: 32px;
+}
+
+.text-content p {
+  color: #999;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.background{
+  background-color: #da50ff;
+  width: 350px;
+  height: 600px;
+  border-bottom-left-radius: 150px;
+  border-bottom-right-radius: 150px;
+  z-index: -1;
+}
