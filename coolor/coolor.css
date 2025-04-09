@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family:"inter"; 
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+}
+a{
+    text-decoration: none;   
+}
+nav ul li a{
+    font-family: "inter";
+    font-weight: 400;
+    font-size: 15px;
+}
+nav ul{
+    display: flex;
+align-items: center;
+gap: 30px; list-style: none;
+}
+nav ul .l4{
+    background-color: rgb(49, 49, 249);
+    color: white; padding: 9px 9px;
+    border-radius: 12px;
+}
+nav ul .l1{ color: black;}
+nav ul .l2{color: hotpink;}
+.vertical-line{
+    height: 10px;
+    color: black;
+    border: 1 solid;
+}
+
+.container {
+    text-align: center;
+    width: 600px;
+}
+.hero{padding: 0px 70px;
+margin-top: 110px;
+width: 500px;}
+
+.hero h1{font-size: 70px;
+font-weight: 900;
+width: 500px;text-align: center;
+line-height: 77px;
+}
+
+.hero p{font-size: 20px;
+font-weight: 400;
+width: 500px; text-align: center;
+line-height: 25px;}
+
+.container .a1{ background-color:rgb(48, 48, 255);
+padding: 15px 55px;  border-radius: 12px;
+ color: white;font-size: 18px;font-weight: 400;
+ 
+}    
+
+.container .a2{ 
+padding: 15px 30px;  border-radius: 12px;border: 1px solid;
+ color:black; font-size: 18px;
+ font-weight: 400;
+ }    
+
+ .container .a3{ 
+    padding: 15px 30px;  border-radius: 12px;border: 1px solid;
+     color:red; font-size: 18px;
+     font-weight: 400;
+     }    
+
+
+.container .a3 img{
+    height: 20px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.palette{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vh;
+}
+
+.pal{
+    display: flex;
+    position: relative;
+
+}
+
+.monitor{
+ margin-top: 300px;
+ position:absolute;left: -300px;
+ border: 10px solid black;
+ border-top-right-radius: 15px;
+ border-top-left-radius: 15px; 
+ height: 300px;
+
+}
+
+.palette-wall{
+border: 10px solid black;
+border-top-right-radius: 15px;
+border-top-left-radius: 15px;
+height: 500px;
+width: 500px;
+}
+.monitor img{
+    height: 300px;
+    width: 400px;
+}
+.palette-wall img{
+    height: 500px;
+    width: 500px;
+}
+
+.apps img{
+ height: 50px;
+}
+

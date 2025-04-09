@@ -2,6 +2,7 @@ body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
   background: #f8f8f8;
+  margin: 0;
 }
 
 .container {
@@ -21,8 +22,8 @@ body {
   display: flex;
   flex-direction: column;
   border: white 10px solid;
-  
-
+  height:90vh ;
+  position: relative;
 }
 
 .header {
@@ -147,13 +148,17 @@ body {
   color: #999;
   font-size: 16px;
   line-height: 1.6;
+  
 }
 
 .background{
   background-color: #da50ff;
   width: 350px;
-  height: 600px;
+  height: 100vh;
   border-bottom-left-radius: 150px;
   border-bottom-right-radius: 150px;
   z-index: -1;
+  position: relative;
+  justify-content:left;
+  align-items: center;
 }
