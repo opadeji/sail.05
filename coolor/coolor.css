@@ -3,8 +3,12 @@
     padding: 0px;
 }
 body{
-    font-family:"inter"; 
+    font-family: "Inter";
+    
+    font-style: normal;
+  
 }
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -24,7 +28,7 @@ align-items: center;
 gap: 30px; list-style: none;
 }
 nav ul .l4{
-    background-color: rgb(49, 49, 249);
+    background-color: rgb(34, 34, 192);
     color: white; padding: 9px 9px;
     border-radius: 12px;
 }
@@ -91,12 +95,14 @@ padding: 15px 30px;  border-radius: 12px;border: 1px solid;
 .pal{
     display: flex;
     position: relative;
+    padding: 30px;
+   
 
 }
 
 .monitor{
  margin-top: 300px;
- position:absolute;left: -300px;
+ position:absolute;left: -250px; ;
  border: 10px solid black;
  border-top-right-radius: 15px;
  border-top-left-radius: 15px; 
@@ -110,6 +116,7 @@ border-top-right-radius: 15px;
 border-top-left-radius: 15px;
 height: 500px;
 width: 500px;
+
 }
 .monitor img{
     height: 300px;
@@ -119,7 +126,32 @@ width: 500px;
     height: 500px;
     width: 500px;
 }
-
+.make{font-size: 25px;
+    width: 200px;
+    position: absolute;top: 250px; right: 600px;
+    transition: all 0.15s ease-in-out;
+    font-family: "Shadows Into Light Two", cursive;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+.make:hover{
+    transform: scale(1.2);
+}
+.explore{
+    font-size: 25px;
+    position: absolute;top: 100px ;right: 600px;
+    transition: all 0.15s ease-in-out;
+    font-family: "Shadows Into Light Two", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.explore:hover{
+    transform: scale(1.2);
+}
+.palette .pal a{
+    color: black;
+}
 .apps img{
  height: 60px;
 }
@@ -135,6 +167,7 @@ width: 500px;
     margin: 0px 20px;
     padding: 55px 0px;
     border-radius: 12px;
+   
 }
 .app2{
     background-color: rgb(246, 246, 246);
@@ -152,12 +185,6 @@ width: 500px;
 }
 .apps a{
 color: black;
-cursor: pointer;
-transition: background-color 0.3s;
-}
-
-.apps a:hover{
-    background-color: aqua;
 }
 
 .used{
@@ -172,6 +199,8 @@ transition: background-color 0.3s;
     display: flex;
     justify-content: space-around;
     padding: 20px 80px;
+    transition: all 0.5s ease-in-out;
+    
 }
 .movie img{
     height: 60px;
@@ -196,3 +225,15 @@ transition: background-color 0.3s;
     background-color:  rgb(246, 246, 246);
     padding: 50px 50px;
 }
+.footer ul :hover{
+    color: blue;
+}
+.navbar ul :hover{
+    color: blue;
+}
+ 
+
+.movie :hover{
+    transform: scale(1.2);
+}
+
