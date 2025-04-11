@@ -80,22 +80,24 @@ padding: 15px 30px;  border-radius: 12px;border: 1px solid;
     height: 20px;
 }
 .main{
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
     
 }
 .palette{
     display: flex;
-    justify-content: center;
+    justify-content:right;
     align-items: center;
     height: 100vh;
     width: 100vh;
+   
 }
 
 .pal{
     display: flex;
     position: relative;
-    padding: 30px;
+    
    
 
 }
@@ -116,6 +118,7 @@ border-top-right-radius: 15px;
 border-top-left-radius: 15px;
 height: 500px;
 width: 500px;
+padding-right: -50px;
 
 }
 .monitor img{
@@ -161,19 +164,27 @@ width: 500px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     text-align: center;  
+    position: relative;
 }
-
+.app0{
+    background-color: rgb(246, 246, 246);
+    margin: 0px 20px;
+    padding: 55px 0px;
+    border-radius: 12px;
+}
 .app{background-color: rgb(246, 246, 246);
     margin: 0px 20px;
     padding: 55px 0px;
     border-radius: 12px;
+    position: relative;}
    
-}
+
 .app2{
     background-color: rgb(246, 246, 246);
     margin: 0px 20px;
     padding: 43px 0px;  
     border-radius: 12px;
+    position: relative;
 }
 
 .app1{
@@ -187,6 +198,126 @@ width: 500px;
 color: black;
 }
 
+.overlay1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:lightblue; 
+    color:rgb(6, 69, 90);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 12px;
+    font-size: 30px;
+    font-size: 800;
+    line-height: 40px;
+  }
+  .apps a:hover .overlay1{
+    opacity: 1;
+  }
+  .overlay2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: lightgreen; 
+    color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 12px;
+    font-size: 30px;
+    font-size: 800;
+    line-height: 40px;
+  }
+  .apps a:hover .overlay2{
+    opacity: 1;
+  }
+  .overlay3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:pink; 
+    color: hotpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 12px;
+    font-size: 30px;
+    font-size: 800;
+    line-height: 40px;
+  }
+  .apps a:hover .overlay3{
+    opacity: 1;
+  }
+  .overlay4{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:plum ; 
+    color:purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 12px;
+    font-size: 30px;
+    font-size: 800;
+    line-height: 40px;
+  }
+  .apps a:hover .overlay4{
+    opacity: 1;
+  }
+  .overlay5{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:bisque; 
+    color:goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 12px;
+    font-size: 30px;
+    font-size: 800;
+    line-height: 40px;
+  }
+  .apps a:hover .overlay5{
+    opacity: 1;
+  }
+  
+  
+  
+  
+  
 .used{
     margin-top: 100px;
     text-align: center;
@@ -236,4 +367,136 @@ color: black;
 .movie :hover{
     transform: scale(1.2);
 }
-
+.fixed img{height: 70px;}
+.fixed{
+    position: fixed;bottom: 80px;left: 1400px;
+ }
+ @media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      align-items: center;
+      padding: 15px 20px;
+    }
+  
+    nav ul {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+  
+    .container {
+      width: 100%;
+      padding: 0 20px;
+    }
+  
+    .hero {
+      width: 100%;
+      padding: 0;
+      margin-top: 50px;
+    }
+  
+    .hero h1 {
+      font-size: 50px;
+      line-height: 55px;
+      width: 100%;
+    }
+  
+    .hero p {
+      font-size: 16px;
+      width: 100%;
+    }
+  
+    .container .a1,
+    .container .a2,
+    .container .a3 {
+      display: block;
+      width: 100%;
+      margin: 10px 0;
+      padding: 12px;
+    }
+  
+    .main {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .palette {
+      height: auto;
+      width: 100%;
+    }
+  
+    .pal {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .monitor,
+    .palette-wall {
+      position: static;
+      margin: 20px 0;
+      width: 100%;
+      max-width: 400px;
+    }
+  
+    .monitor img,
+    .palette-wall img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .make,
+    .explore {
+      position: static;
+      text-align: center;
+      width: 100%;
+      margin: 10px 0;
+    }
+  
+    .apps {
+      grid-template-columns: 1fr 1fr;
+      margin: 20px;
+    }
+  
+    .movie {
+      flex-wrap: wrap;
+      padding: 20px;
+      justify-content: center;
+    }
+  
+    .movie div {
+      flex: 1 0 33%;
+      text-align: center;
+      margin: 10px;
+    }
+  
+    .footer {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 30px;
+    }
+  
+    .footer div {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .main .palette-wall{display: none;}
+    .hero h1 {
+      font-size: 35px;
+      line-height: 40px;
+    }
+  
+    .hero p {
+      font-size: 14px;
+    }
+  
+    .apps {
+      grid-template-columns: 1fr;
+    }
+  
+    .movie div {
+      flex: 1 0 50%;
+    }
+  }
